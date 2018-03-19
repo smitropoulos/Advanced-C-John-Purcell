@@ -7,16 +7,10 @@
 //
 #include <iostream>
 #include "Custom_exceptions.hpp"
-#include "STL/Vectors.hpp"
+#include "STL/Lists.hpp"
 int main(int argc, const char * argv[]) {
-	try{
-	testCustomException inst1;
-		inst1.sthGoesWrong();
-	}
-	catch(myCustomException &e){
-		std::cout<<e.what()<<std::endl;
-		}
 
-	Vectors();
+	Lists();
+	
 	return 0;
 }

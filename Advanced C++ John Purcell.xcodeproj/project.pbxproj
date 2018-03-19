@@ -11,6 +11,7 @@
 		7D40E59C20600B8A004E480E /* Basic_exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E59A20600B8A004E480E /* Basic_exceptions.cpp */; };
 		7D40E59F2060106D004E480E /* Custom_exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E59D2060106D004E480E /* Custom_exceptions.cpp */; };
 		7D40E5A3206022B7004E480E /* Vectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5A1206022B7004E480E /* Vectors.cpp */; };
+		7D40E5A620603B24004E480E /* Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5A420603B24004E480E /* Lists.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		7D40E59E2060106D004E480E /* Custom_exceptions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Custom_exceptions.hpp; sourceTree = "<group>"; };
 		7D40E5A1206022B7004E480E /* Vectors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vectors.cpp; sourceTree = "<group>"; };
 		7D40E5A2206022B7004E480E /* Vectors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vectors.hpp; sourceTree = "<group>"; };
+		7D40E5A420603B24004E480E /* Lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lists.cpp; sourceTree = "<group>"; };
+		7D40E5A520603B24004E480E /* Lists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Lists.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 			children = (
 				7D40E5A1206022B7004E480E /* Vectors.cpp */,
 				7D40E5A2206022B7004E480E /* Vectors.hpp */,
+				7D40E5A420603B24004E480E /* Lists.cpp */,
+				7D40E5A520603B24004E480E /* Lists.hpp */,
 			);
 			path = STL;
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			files = (
 				7D40E59F2060106D004E480E /* Custom_exceptions.cpp in Sources */,
 				7D40E59C20600B8A004E480E /* Basic_exceptions.cpp in Sources */,
+				7D40E5A620603B24004E480E /* Lists.cpp in Sources */,
 				7D40E5A3206022B7004E480E /* Vectors.cpp in Sources */,
 				7D40E594205FEE71004E480E /* main.cpp in Sources */,
 			);
