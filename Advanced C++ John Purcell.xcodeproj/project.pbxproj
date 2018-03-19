@@ -10,6 +10,7 @@
 		7D40E594205FEE71004E480E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E593205FEE71004E480E /* main.cpp */; };
 		7D40E59C20600B8A004E480E /* Basic_exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E59A20600B8A004E480E /* Basic_exceptions.cpp */; };
 		7D40E59F2060106D004E480E /* Custom_exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E59D2060106D004E480E /* Custom_exceptions.cpp */; };
+		7D40E5A3206022B7004E480E /* Vectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5A1206022B7004E480E /* Vectors.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		7D40E59B20600B8A004E480E /* Basic_exceptions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Basic_exceptions.hpp; sourceTree = "<group>"; };
 		7D40E59D2060106D004E480E /* Custom_exceptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Custom_exceptions.cpp; sourceTree = "<group>"; };
 		7D40E59E2060106D004E480E /* Custom_exceptions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Custom_exceptions.hpp; sourceTree = "<group>"; };
+		7D40E5A1206022B7004E480E /* Vectors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vectors.cpp; sourceTree = "<group>"; };
+		7D40E5A2206022B7004E480E /* Vectors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vectors.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		7D40E592205FEE71004E480E /* Advanced C++ John Purcell */ = {
 			isa = PBXGroup;
 			children = (
+				7D40E5A0206022A2004E480E /* STL */,
 				7D40E593205FEE71004E480E /* main.cpp */,
 				7D40E59D2060106D004E480E /* Custom_exceptions.cpp */,
 				7D40E59E2060106D004E480E /* Custom_exceptions.hpp */,
@@ -70,6 +74,15 @@
 				7D40E59B20600B8A004E480E /* Basic_exceptions.hpp */,
 			);
 			path = "Advanced C++ John Purcell";
+			sourceTree = "<group>";
+		};
+		7D40E5A0206022A2004E480E /* STL */ = {
+			isa = PBXGroup;
+			children = (
+				7D40E5A1206022B7004E480E /* Vectors.cpp */,
+				7D40E5A2206022B7004E480E /* Vectors.hpp */,
+			);
+			path = STL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +144,7 @@
 			files = (
 				7D40E59F2060106D004E480E /* Custom_exceptions.cpp in Sources */,
 				7D40E59C20600B8A004E480E /* Basic_exceptions.cpp in Sources */,
+				7D40E5A3206022B7004E480E /* Vectors.cpp in Sources */,
 				7D40E594205FEE71004E480E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

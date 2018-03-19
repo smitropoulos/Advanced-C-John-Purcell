@@ -7,7 +7,7 @@
 //
 #include <iostream>
 #include "Custom_exceptions.hpp"
-
+#include "STL/Vectors.hpp"
 int main(int argc, const char * argv[]) {
 	try{
 	testCustomException inst1;
@@ -16,5 +16,7 @@ int main(int argc, const char * argv[]) {
 	catch(myCustomException &e){
 		std::cout<<e.what()<<std::endl;
 		}
+
+	Vectors();
 	return 0;
 }
