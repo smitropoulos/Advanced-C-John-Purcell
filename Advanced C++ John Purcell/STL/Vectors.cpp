@@ -21,7 +21,7 @@ void Vectors(){
 
 
 	for (std::vector<int>::iterator iter = vectorOfInts.begin() ; iter != vectorOfInts.end(); iter++){
-		std::cout<<iter<<std::endl;
+		std::cout<<*iter<<std::endl;
 	}
 	std::cout<<vectorOfInts[0]<<std::endl;
 
