@@ -5,11 +5,16 @@
 //  Created by Stefanos Mitropoulos on 19/03/2018.
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
-
 #include <iostream>
+#include "Custom_exceptions.hpp"
 
 int main(int argc, const char * argv[]) {
-	// insert code here...
-	std::cout << "Hello, World!\n";
+	try{
+	testCustomException inst1;
+		inst1.sthGoesWrong();
+	}
+	catch(myCustomException &e){
+		std::cout<<e.what()<<std::endl;
+		}
 	return 0;
 }
