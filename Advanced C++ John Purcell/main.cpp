@@ -8,9 +8,10 @@
 #include <iostream>
 #include "Custom_exceptions.hpp"
 #include "STL/Lists.hpp"
+#include "STL/Maps.hpp"
 int main(int argc, const char * argv[]) {
 
-	Lists();
+	maps();
 	
 	return 0;
 }
