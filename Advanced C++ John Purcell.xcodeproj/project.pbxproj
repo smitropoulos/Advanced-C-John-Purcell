@@ -13,6 +13,7 @@
 		7D40E5A3206022B7004E480E /* Vectors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5A1206022B7004E480E /* Vectors.cpp */; };
 		7D40E5A620603B24004E480E /* Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5A420603B24004E480E /* Lists.cpp */; };
 		7D40E5D520616E62004E480E /* Maps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5D320616E62004E480E /* Maps.cpp */; };
+		7D40E5D9206275B7004E480E /* Multimaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5D7206275B7004E480E /* Multimaps.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,8 @@
 		7D40E5D320616E62004E480E /* Maps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maps.cpp; sourceTree = "<group>"; };
 		7D40E5D420616E62004E480E /* Maps.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Maps.hpp; sourceTree = "<group>"; };
 		7D40E5D6206270D2004E480E /* File.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
+		7D40E5D7206275B7004E480E /* Multimaps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Multimaps.cpp; sourceTree = "<group>"; };
+		7D40E5D8206275B7004E480E /* Multimaps.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Multimaps.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 		7D40E592205FEE71004E480E /* Advanced C++ John Purcell */ = {
 			isa = PBXGroup;
 			children = (
+				7D40E5D6206270D2004E480E /* File.rtf */,
 				7D40E5A0206022A2004E480E /* STL */,
 				7D40E593205FEE71004E480E /* main.cpp */,
 				7D40E59D2060106D004E480E /* Custom_exceptions.cpp */,
@@ -89,8 +93,9 @@
 				7D40E5A1206022B7004E480E /* Vectors.cpp */,
 				7D40E5A2206022B7004E480E /* Vectors.hpp */,
 				7D40E5A420603B24004E480E /* Lists.cpp */,
+				7D40E5D7206275B7004E480E /* Multimaps.cpp */,
+				7D40E5D8206275B7004E480E /* Multimaps.hpp */,
 				7D40E5D320616E62004E480E /* Maps.cpp */,
-				7D40E5D6206270D2004E480E /* File.rtf */,
 				7D40E5D420616E62004E480E /* Maps.hpp */,
 				7D40E5A520603B24004E480E /* Lists.hpp */,
 			);
@@ -155,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D40E5D520616E62004E480E /* Maps.cpp in Sources */,
+				7D40E5D9206275B7004E480E /* Multimaps.cpp in Sources */,
 				7D40E59F2060106D004E480E /* Custom_exceptions.cpp in Sources */,
 				7D40E59C20600B8A004E480E /* Basic_exceptions.cpp in Sources */,
 				7D40E5A620603B24004E480E /* Lists.cpp in Sources */,

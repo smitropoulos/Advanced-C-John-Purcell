@@ -7,11 +7,9 @@
 //
 #include <iostream>
 #include "Custom_exceptions.hpp"
-#include "STL/Lists.hpp"
-#include "STL/Maps.hpp"
+#include "STL/Multimaps.hpp"
 int main(int argc, const char * argv[]) {
 
-	maps();
-	
+	multimaps();
 	return 0;
 }
