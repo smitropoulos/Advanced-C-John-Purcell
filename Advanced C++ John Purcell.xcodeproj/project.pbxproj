@@ -14,6 +14,7 @@
 		7D40E5A620603B24004E480E /* Lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5A420603B24004E480E /* Lists.cpp */; };
 		7D40E5D520616E62004E480E /* Maps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5D320616E62004E480E /* Maps.cpp */; };
 		7D40E5D9206275B7004E480E /* Multimaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5D7206275B7004E480E /* Multimaps.cpp */; };
+		7D40E5DC20627CC5004E480E /* Sets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5DA20627CC5004E480E /* Sets.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +45,8 @@
 		7D40E5D6206270D2004E480E /* File.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = File.rtf; sourceTree = "<group>"; };
 		7D40E5D7206275B7004E480E /* Multimaps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Multimaps.cpp; sourceTree = "<group>"; };
 		7D40E5D8206275B7004E480E /* Multimaps.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Multimaps.hpp; sourceTree = "<group>"; };
+		7D40E5DA20627CC5004E480E /* Sets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sets.cpp; sourceTree = "<group>"; };
+		7D40E5DB20627CC5004E480E /* Sets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sets.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				7D40E5A420603B24004E480E /* Lists.cpp */,
 				7D40E5D7206275B7004E480E /* Multimaps.cpp */,
 				7D40E5D8206275B7004E480E /* Multimaps.hpp */,
+				7D40E5DA20627CC5004E480E /* Sets.cpp */,
+				7D40E5DB20627CC5004E480E /* Sets.hpp */,
 				7D40E5D320616E62004E480E /* Maps.cpp */,
 				7D40E5D420616E62004E480E /* Maps.hpp */,
 				7D40E5A520603B24004E480E /* Lists.hpp */,
@@ -159,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D40E5DC20627CC5004E480E /* Sets.cpp in Sources */,
 				7D40E5D520616E62004E480E /* Maps.cpp in Sources */,
 				7D40E5D9206275B7004E480E /* Multimaps.cpp in Sources */,
 				7D40E59F2060106D004E480E /* Custom_exceptions.cpp in Sources */,

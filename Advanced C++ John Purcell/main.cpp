@@ -7,9 +7,9 @@
 //
 #include <iostream>
 #include "Custom_exceptions.hpp"
-#include "STL/Multimaps.hpp"
+#include "STL/Sets.hpp"
 int main(int argc, const char * argv[]) {
 
-	multimaps();
+	sets();
 	return 0;
 }
