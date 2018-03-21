@@ -15,6 +15,7 @@
 		7D40E5D520616E62004E480E /* Maps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5D320616E62004E480E /* Maps.cpp */; };
 		7D40E5D9206275B7004E480E /* Multimaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5D7206275B7004E480E /* Multimaps.cpp */; };
 		7D40E5DC20627CC5004E480E /* Sets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5DA20627CC5004E480E /* Sets.cpp */; };
+		7D40E5DF2062869C004E480E /* StackNQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5DD2062869C004E480E /* StackNQueue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,8 @@
 		7D40E5D8206275B7004E480E /* Multimaps.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Multimaps.hpp; sourceTree = "<group>"; };
 		7D40E5DA20627CC5004E480E /* Sets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sets.cpp; sourceTree = "<group>"; };
 		7D40E5DB20627CC5004E480E /* Sets.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sets.hpp; sourceTree = "<group>"; };
+		7D40E5DD2062869C004E480E /* StackNQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackNQueue.cpp; sourceTree = "<group>"; };
+		7D40E5DE2062869C004E480E /* StackNQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackNQueue.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				7D40E5D7206275B7004E480E /* Multimaps.cpp */,
 				7D40E5D8206275B7004E480E /* Multimaps.hpp */,
 				7D40E5DA20627CC5004E480E /* Sets.cpp */,
+				7D40E5DD2062869C004E480E /* StackNQueue.cpp */,
+				7D40E5DE2062869C004E480E /* StackNQueue.hpp */,
 				7D40E5DB20627CC5004E480E /* Sets.hpp */,
 				7D40E5D320616E62004E480E /* Maps.cpp */,
 				7D40E5D420616E62004E480E /* Maps.hpp */,
@@ -164,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D40E5DF2062869C004E480E /* StackNQueue.cpp in Sources */,
 				7D40E5DC20627CC5004E480E /* Sets.cpp in Sources */,
 				7D40E5D520616E62004E480E /* Maps.cpp in Sources */,
 				7D40E5D9206275B7004E480E /* Multimaps.cpp in Sources */,

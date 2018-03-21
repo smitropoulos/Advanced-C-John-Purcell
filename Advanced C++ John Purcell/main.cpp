@@ -7,9 +7,9 @@
 //
 #include <iostream>
 #include "Custom_exceptions.hpp"
-#include "STL/Sets.hpp"
+#include "STL/StackNQueue.hpp"
 int main(int argc, const char * argv[]) {
 
-	sets();
+	stackNqueue();
 	return 0;
 }
