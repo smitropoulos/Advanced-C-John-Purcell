@@ -7,9 +7,9 @@
 //
 #include <iostream>
 #include "Custom_exceptions.hpp"
-#include "STL/StackNQueue.hpp"
+#include "STL/Vectors.hpp"
 int main(int argc, const char * argv[]) {
 
-	stackNqueue();
+	Vectors();
 	return 0;
 }

@@ -11,7 +11,7 @@
 #include <vector>
 
 void Vectors(){
-
+/*
 	std::vector<int> vectorOfInts;		//A vector of ints.
 
 		//Push back literally treats the vector as a stack; pushing it back increases its size by 1
@@ -59,6 +59,57 @@ void Vectors(){
 		for (int cols=0;cols<grid[rows].size();cols++){
 			std::cout<< grid[rows][cols]<<std::flush;
 		}
+		std::cout<<std::endl;
+	}
+
+*/
+	//////////New Video - Sorting Vectors////////////////
+
+	//adding a test class.
+	class Test{
+		int _id;
+		std::string _name;
+	public:
+		Test();
+		Test(int id, std::string name):_name(name),_id(id){}
+
+		void print () const{
+			std::cout<<_id<<": "<< _name<<std::flush;
+		}
+
+		bool operator<(const Test &other) const{
+			return _id<other._id;
+		}
+		//friend bool compareTestObjects(const Test& a, const Test& b);	//In order to access the private variables we need to declare this function as a friend of the class.
+	};
+
+	std::vector<Test> tests;
+
+	tests.push_back(Test (1,"Susan"));
+	tests.push_back(Test (3,"Tomas"));
+	tests.push_back(Test (4,"Violetta"));
+	tests.push_back(Test (2,"Raj"));
+
+	for(int i=0 ; i<tests.size();i++){
+		tests[i].print();
+		std::cout<<std::endl;
+			}
+
+		///In order to sort the vector we can use the std::sort() method. It can sort a range from iterator to iterator
+
+	std::sort(tests.begin(), tests.end());
+
+	//One could also provide a comparison metric, like a function, for the sort method as a 3rd arg.
+	/*
+	 bool compareTestObjects(const Test& a, const Test& b){
+	 return a._id<a._id;
+	 }
+	 std::sort(tests.begin(), tests.end(),compareTestObjects);
+	 */
+
+	std::cout<<std::endl;
+	for(int i=0 ; i<tests.size();i++){
+		tests[i].print();
 		std::cout<<std::endl;
 	}
 
