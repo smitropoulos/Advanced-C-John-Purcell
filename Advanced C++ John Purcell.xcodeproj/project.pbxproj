@@ -17,6 +17,7 @@
 		7D40E5DC20627CC5004E480E /* Sets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5DA20627CC5004E480E /* Sets.cpp */; };
 		7D40E5DF2062869C004E480E /* StackNQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5DD2062869C004E480E /* StackNQueue.cpp */; };
 		7D40E5E32063C926004E480E /* Overloading Operators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5E12063C926004E480E /* Overloading Operators.cpp */; };
+		7DB953812064435100D35CE5 /* Complex numbers class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DB9537F2064435100D35CE5 /* Complex numbers class.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,8 @@
 		7D40E5DE2062869C004E480E /* StackNQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackNQueue.hpp; sourceTree = "<group>"; };
 		7D40E5E12063C926004E480E /* Overloading Operators.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Overloading Operators.cpp"; sourceTree = "<group>"; };
 		7D40E5E22063C926004E480E /* Overloading Operators.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Overloading Operators.hpp"; sourceTree = "<group>"; };
+		7DB9537F2064435100D35CE5 /* Complex numbers class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Complex numbers class.cpp"; sourceTree = "<group>"; };
+		7DB953802064435100D35CE5 /* Complex numbers class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Complex numbers class.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 			children = (
 				7D40E5E12063C926004E480E /* Overloading Operators.cpp */,
 				7D40E5E22063C926004E480E /* Overloading Operators.hpp */,
+				7DB9537F2064435100D35CE5 /* Complex numbers class.cpp */,
+				7DB953802064435100D35CE5 /* Complex numbers class.hpp */,
 			);
 			path = "Operator Overloading";
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D40E5DF2062869C004E480E /* StackNQueue.cpp in Sources */,
+				7DB953812064435100D35CE5 /* Complex numbers class.cpp in Sources */,
 				7D40E5DC20627CC5004E480E /* Sets.cpp in Sources */,
 				7D40E5D520616E62004E480E /* Maps.cpp in Sources */,
 				7D40E5D9206275B7004E480E /* Multimaps.cpp in Sources */,

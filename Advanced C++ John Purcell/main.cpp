@@ -7,9 +7,14 @@
 //
 #include <iostream>
 #include "Custom_exceptions.hpp"
-#include "Operator Overloading/Overloading Operators.hpp"
+#include "Operator Overloading/Complex numbers class.hpp"
 int main(int argc, const char * argv[]) {
 
-	overloading();
+	Complex comp1(2,3.1);
+	Complex comp2=comp1;
+	Complex comp3;
+	comp3=comp2;
+	std::cout<<comp1+comp3+comp2 <<std::endl;
+
 	return 0;
 }
