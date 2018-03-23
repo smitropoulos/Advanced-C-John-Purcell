@@ -8,6 +8,7 @@
 
 #include "Complex numbers class.hpp"
 
+///Operators/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 std::ostream& operator<<(std::ostream& out,const Complex& other){
 	out<<"("<<other._real<<" , "<<other._imaginary<<")"<<std::flush;
 	return out;
@@ -16,6 +17,15 @@ std::ostream& operator<<(std::ostream& out,const Complex& other){
 Complex operator+(const Complex& a,const Complex& b){
 	return Complex(a._real+b._real,a._imaginary+b._imaginary);
 }
+
+Complex operator+(const Complex& a,const double b){
+	return Complex(a._real+b,a._imaginary);
+}
+Complex operator+(const double&b,const Complex& a){
+	return Complex(a._real+b,a._imaginary);
+}
+///Operators/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 Complex::Complex(const Complex& other){
 	_real=other._real;

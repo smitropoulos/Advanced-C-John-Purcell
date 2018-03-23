@@ -14,7 +14,8 @@ int main(int argc, const char * argv[]) {
 	Complex comp2=comp1;
 	Complex comp3;
 	comp3=comp2;
-	std::cout<<comp1+comp3+comp2 <<std::endl;
+	double g=3.1;
+	std::cout<<comp1+comp3+comp2+g <<std::endl;
 
 	return 0;
 }

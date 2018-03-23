@@ -22,9 +22,13 @@ public:
 	Complex(double real,double im):_real(real),_imaginary(im){}		//two parameters constructor
 	Complex(const Complex& other);
 
+	///Operators ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	Complex& operator=(const Complex& other);
 	friend std::ostream& operator<<(std::ostream& out,const Complex& other);
 	friend Complex operator+(const Complex& a,const Complex& b);
+	friend Complex operator+(const Complex& a,const double b);
+	friend Complex operator+(const double&b,const Complex& a);
+	///Operators ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	};
 
