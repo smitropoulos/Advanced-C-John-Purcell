@@ -14,8 +14,18 @@ int main(int argc, const char * argv[]) {
 	Complex comp2=comp1;
 	Complex comp3;
 	comp3=comp2;
-	double g=3.1;
-	std::cout<<comp1+comp3+comp2+g <<std::endl;
+	float g=3.1;
+	std::cout<<comp1 <<std::endl;
+	std::cout<<comp2<<std::endl;
 
+
+	if (comp1 == comp2){
+		std::cout<<"Equals"<<std::endl;
+	}
+	else{
+		std::cout<<"Not Equals"<<std::endl;
+
+	}
+	std::cout<<*comp2<<std::endl;
 	return 0;
 }

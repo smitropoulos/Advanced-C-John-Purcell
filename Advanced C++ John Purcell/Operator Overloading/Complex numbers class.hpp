@@ -20,6 +20,8 @@ public:
 	Complex():_real(0),_imaginary(0){}		//default constructor.
 	Complex(double real):_real(real){}		//one paramaeter constructor
 	Complex(double real,double im):_real(real),_imaginary(im){}		//two parameters constructor
+	double extracted();
+
 	Complex(const Complex& other);
 
 	///Operators ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -27,7 +29,9 @@ public:
 	friend std::ostream& operator<<(std::ostream& out,const Complex& other);
 	friend Complex operator+(const Complex& a,const Complex& b);
 	friend Complex operator+(const Complex& a,const double b);
-	friend Complex operator+(const double&b,const Complex& a);
+	friend bool operator==(const Complex&a, const Complex& b);
+	friend bool operator!=(const Complex&a, const Complex& b);
+	friend Complex operator*(const Complex& a);
 	///Operators ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	};
