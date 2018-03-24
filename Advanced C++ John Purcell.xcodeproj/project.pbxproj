@@ -17,6 +17,8 @@
 		7D40E5DC20627CC5004E480E /* Sets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5DA20627CC5004E480E /* Sets.cpp */; };
 		7D40E5DF2062869C004E480E /* StackNQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5DD2062869C004E480E /* StackNQueue.cpp */; };
 		7D40E5E32063C926004E480E /* Overloading Operators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5E12063C926004E480E /* Overloading Operators.cpp */; };
+		7D72133120665D780044A7D3 /* Templates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D72132F20665D780044A7D3 /* Templates.cpp */; };
+		7D7213352066AC560044A7D3 /* FunctionPointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7213332066AC560044A7D3 /* FunctionPointers.cpp */; };
 		7DB953812064435100D35CE5 /* Complex numbers class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DB9537F2064435100D35CE5 /* Complex numbers class.cpp */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,10 @@
 		7D40E5DE2062869C004E480E /* StackNQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackNQueue.hpp; sourceTree = "<group>"; };
 		7D40E5E12063C926004E480E /* Overloading Operators.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Overloading Operators.cpp"; sourceTree = "<group>"; };
 		7D40E5E22063C926004E480E /* Overloading Operators.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Overloading Operators.hpp"; sourceTree = "<group>"; };
+		7D72132F20665D780044A7D3 /* Templates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Templates.cpp; sourceTree = "<group>"; };
+		7D72133020665D780044A7D3 /* Templates.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Templates.hpp; sourceTree = "<group>"; };
+		7D7213332066AC560044A7D3 /* FunctionPointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionPointers.cpp; sourceTree = "<group>"; };
+		7D7213342066AC560044A7D3 /* FunctionPointers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FunctionPointers.hpp; sourceTree = "<group>"; };
 		7DB9537F2064435100D35CE5 /* Complex numbers class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Complex numbers class.cpp"; sourceTree = "<group>"; };
 		7DB953802064435100D35CE5 /* Complex numbers class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Complex numbers class.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +94,7 @@
 		7D40E592205FEE71004E480E /* Advanced C++ John Purcell */ = {
 			isa = PBXGroup;
 			children = (
+				7D7213322066AC3C0044A7D3 /* Pointers to functions */,
 				7D40E5D6206270D2004E480E /* File.rtf */,
 				7D40E5A0206022A2004E480E /* STL */,
 				7D40E5E02063C8EE004E480E /* Operator Overloading */,
@@ -96,6 +103,8 @@
 				7D40E59E2060106D004E480E /* Custom_exceptions.hpp */,
 				7D40E59A20600B8A004E480E /* Basic_exceptions.cpp */,
 				7D40E59B20600B8A004E480E /* Basic_exceptions.hpp */,
+				7D72132F20665D780044A7D3 /* Templates.cpp */,
+				7D72133020665D780044A7D3 /* Templates.hpp */,
 			);
 			path = "Advanced C++ John Purcell";
 			sourceTree = "<group>";
@@ -128,6 +137,15 @@
 				7DB953802064435100D35CE5 /* Complex numbers class.hpp */,
 			);
 			path = "Operator Overloading";
+			sourceTree = "<group>";
+		};
+		7D7213322066AC3C0044A7D3 /* Pointers to functions */ = {
+			isa = PBXGroup;
+			children = (
+				7D7213332066AC560044A7D3 /* FunctionPointers.cpp */,
+				7D7213342066AC560044A7D3 /* FunctionPointers.hpp */,
+			);
+			path = "Pointers to functions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D40E5DF2062869C004E480E /* StackNQueue.cpp in Sources */,
+				7D7213352066AC560044A7D3 /* FunctionPointers.cpp in Sources */,
 				7DB953812064435100D35CE5 /* Complex numbers class.cpp in Sources */,
 				7D40E5DC20627CC5004E480E /* Sets.cpp in Sources */,
 				7D40E5D520616E62004E480E /* Maps.cpp in Sources */,
@@ -196,6 +215,7 @@
 				7D40E59C20600B8A004E480E /* Basic_exceptions.cpp in Sources */,
 				7D40E5A620603B24004E480E /* Lists.cpp in Sources */,
 				7D40E5E32063C926004E480E /* Overloading Operators.cpp in Sources */,
+				7D72133120665D780044A7D3 /* Templates.cpp in Sources */,
 				7D40E5A3206022B7004E480E /* Vectors.cpp in Sources */,
 				7D40E594205FEE71004E480E /* main.cpp in Sources */,
 			);
