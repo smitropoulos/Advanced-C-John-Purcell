@@ -6,9 +6,10 @@
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
 #include <iostream>
-#include "Pointers to functions/FunctionPointers.hpp"
+#include "Object Slicing and polymorphism.hpp"
 
 int main(int argc, const char * argv[]) {
 
-	functionPointers();
+	sli();
+	
 }
