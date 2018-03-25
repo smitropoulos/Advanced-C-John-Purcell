@@ -6,10 +6,9 @@
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
 #include <iostream>
-#include "Object Slicing and polymorphism.hpp"
+#include "functors.hpp"
 
 int main(int argc, const char * argv[]) {
 
-	sli();
-	
+	functors();
 }

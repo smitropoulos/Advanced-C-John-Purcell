@@ -20,6 +20,8 @@
 		7D72133120665D780044A7D3 /* Templates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D72132F20665D780044A7D3 /* Templates.cpp */; };
 		7D7213352066AC560044A7D3 /* FunctionPointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7213332066AC560044A7D3 /* FunctionPointers.cpp */; };
 		7D7213382066E39E0044A7D3 /* Object Slicing and polymorphism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7213362066E39E0044A7D3 /* Object Slicing and polymorphism.cpp */; };
+		7D72133B2067B24F0044A7D3 /* abstract classes pure virtual functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7213392067B24F0044A7D3 /* abstract classes pure virtual functions.cpp */; };
+		7D72133E2067BB540044A7D3 /* functors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D72133C2067BB540044A7D3 /* functors.cpp */; };
 		7DB953812064435100D35CE5 /* Complex numbers class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DB9537F2064435100D35CE5 /* Complex numbers class.cpp */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,10 @@
 		7D7213342066AC560044A7D3 /* FunctionPointers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FunctionPointers.hpp; sourceTree = "<group>"; };
 		7D7213362066E39E0044A7D3 /* Object Slicing and polymorphism.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Object Slicing and polymorphism.cpp"; sourceTree = "<group>"; };
 		7D7213372066E39E0044A7D3 /* Object Slicing and polymorphism.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Object Slicing and polymorphism.hpp"; sourceTree = "<group>"; };
+		7D7213392067B24F0044A7D3 /* abstract classes pure virtual functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "abstract classes pure virtual functions.cpp"; sourceTree = "<group>"; };
+		7D72133A2067B24F0044A7D3 /* abstract classes pure virtual functions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "abstract classes pure virtual functions.hpp"; sourceTree = "<group>"; };
+		7D72133C2067BB540044A7D3 /* functors.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = functors.cpp; sourceTree = "<group>"; };
+		7D72133D2067BB540044A7D3 /* functors.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = functors.hpp; sourceTree = "<group>"; };
 		7DB9537F2064435100D35CE5 /* Complex numbers class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Complex numbers class.cpp"; sourceTree = "<group>"; };
 		7DB953802064435100D35CE5 /* Complex numbers class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Complex numbers class.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +114,10 @@
 				7D40E59B20600B8A004E480E /* Basic_exceptions.hpp */,
 				7D72132F20665D780044A7D3 /* Templates.cpp */,
 				7D72133020665D780044A7D3 /* Templates.hpp */,
+				7D7213392067B24F0044A7D3 /* abstract classes pure virtual functions.cpp */,
+				7D72133C2067BB540044A7D3 /* functors.cpp */,
+				7D72133D2067BB540044A7D3 /* functors.hpp */,
+				7D72133A2067B24F0044A7D3 /* abstract classes pure virtual functions.hpp */,
 				7D7213362066E39E0044A7D3 /* Object Slicing and polymorphism.cpp */,
 				7D7213372066E39E0044A7D3 /* Object Slicing and polymorphism.hpp */,
 			);
@@ -211,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D40E5DF2062869C004E480E /* StackNQueue.cpp in Sources */,
+				7D72133E2067BB540044A7D3 /* functors.cpp in Sources */,
 				7D7213352066AC560044A7D3 /* FunctionPointers.cpp in Sources */,
 				7D7213382066E39E0044A7D3 /* Object Slicing and polymorphism.cpp in Sources */,
 				7DB953812064435100D35CE5 /* Complex numbers class.cpp in Sources */,
@@ -220,6 +231,7 @@
 				7D40E59F2060106D004E480E /* Custom_exceptions.cpp in Sources */,
 				7D40E59C20600B8A004E480E /* Basic_exceptions.cpp in Sources */,
 				7D40E5A620603B24004E480E /* Lists.cpp in Sources */,
+				7D72133B2067B24F0044A7D3 /* abstract classes pure virtual functions.cpp in Sources */,
 				7D40E5E32063C926004E480E /* Overloading Operators.cpp in Sources */,
 				7D72133120665D780044A7D3 /* Templates.cpp in Sources */,
 				7D40E5A3206022B7004E480E /* Vectors.cpp in Sources */,
