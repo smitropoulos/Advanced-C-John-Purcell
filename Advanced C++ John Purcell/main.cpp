@@ -6,9 +6,11 @@
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
 #include <iostream>
-#include "functors.hpp"
+#include "initializer_lists.hpp"
 
+using namespace std;
 int main(int argc, const char * argv[]) {
 
-	functors();
+	init_lists();
+
 }
