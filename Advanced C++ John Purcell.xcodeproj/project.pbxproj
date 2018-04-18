@@ -17,6 +17,7 @@
 		7D40E5DC20627CC5004E480E /* Sets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5DA20627CC5004E480E /* Sets.cpp */; };
 		7D40E5DF2062869C004E480E /* StackNQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5DD2062869C004E480E /* StackNQueue.cpp */; };
 		7D40E5E32063C926004E480E /* Overloading Operators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D40E5E12063C926004E480E /* Overloading Operators.cpp */; };
+		7D4F70DB206AAEFE009A876C /* lvalues-rvalues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F70D9206AAEFE009A876C /* lvalues-rvalues.cpp */; };
 		7D72133120665D780044A7D3 /* Templates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D72132F20665D780044A7D3 /* Templates.cpp */; };
 		7D7213352066AC560044A7D3 /* FunctionPointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7213332066AC560044A7D3 /* FunctionPointers.cpp */; };
 		7D7213382066E39E0044A7D3 /* Object Slicing and polymorphism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7213362066E39E0044A7D3 /* Object Slicing and polymorphism.cpp */; };
@@ -25,6 +26,7 @@
 		7D7213422067DBE90044A7D3 /* decltype+auto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7213402067DBE90044A7D3 /* decltype+auto.cpp */; };
 		7D7213452067E2120044A7D3 /* enhanced for.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D7213432067E2120044A7D3 /* enhanced for.cpp */; };
 		7D72134920681C5D0044A7D3 /* initializer_lists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D72134720681C5D0044A7D3 /* initializer_lists.cpp */; };
+		7D72134C206820EB0044A7D3 /* lambda_expressions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D72134A206820EB0044A7D3 /* lambda_expressions.cpp */; };
 		7DB953812064435100D35CE5 /* Complex numbers class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7DB9537F2064435100D35CE5 /* Complex numbers class.cpp */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		7D40E5DE2062869C004E480E /* StackNQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackNQueue.hpp; sourceTree = "<group>"; };
 		7D40E5E12063C926004E480E /* Overloading Operators.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Overloading Operators.cpp"; sourceTree = "<group>"; };
 		7D40E5E22063C926004E480E /* Overloading Operators.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Overloading Operators.hpp"; sourceTree = "<group>"; };
+		7D4F70D9206AAEFE009A876C /* lvalues-rvalues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "lvalues-rvalues.cpp"; sourceTree = "<group>"; };
+		7D4F70DA206AAEFE009A876C /* lvalues-rvalues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "lvalues-rvalues.hpp"; sourceTree = "<group>"; };
 		7D72132F20665D780044A7D3 /* Templates.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Templates.cpp; sourceTree = "<group>"; };
 		7D72133020665D780044A7D3 /* Templates.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Templates.hpp; sourceTree = "<group>"; };
 		7D7213332066AC560044A7D3 /* FunctionPointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionPointers.cpp; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		7D7213462067E4AC0044A7D3 /* nested_templates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nested_templates.h; sourceTree = "<group>"; };
 		7D72134720681C5D0044A7D3 /* initializer_lists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = initializer_lists.cpp; sourceTree = "<group>"; };
 		7D72134820681C5D0044A7D3 /* initializer_lists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = initializer_lists.hpp; sourceTree = "<group>"; };
+		7D72134A206820EB0044A7D3 /* lambda_expressions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lambda_expressions.cpp; sourceTree = "<group>"; };
+		7D72134B206820EB0044A7D3 /* lambda_expressions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lambda_expressions.hpp; sourceTree = "<group>"; };
 		7DB9537F2064435100D35CE5 /* Complex numbers class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Complex numbers class.cpp"; sourceTree = "<group>"; };
 		7DB953802064435100D35CE5 /* Complex numbers class.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Complex numbers class.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,6 +190,10 @@
 				7D7213412067DBE90044A7D3 /* decltype.hpp */,
 				7D72134720681C5D0044A7D3 /* initializer_lists.cpp */,
 				7D72134820681C5D0044A7D3 /* initializer_lists.hpp */,
+				7D72134A206820EB0044A7D3 /* lambda_expressions.cpp */,
+				7D72134B206820EB0044A7D3 /* lambda_expressions.hpp */,
+				7D4F70D9206AAEFE009A876C /* lvalues-rvalues.cpp */,
+				7D4F70DA206AAEFE009A876C /* lvalues-rvalues.hpp */,
 			);
 			path = "C++11 Features";
 			sourceTree = "<group>";
@@ -248,6 +258,7 @@
 				7D72134920681C5D0044A7D3 /* initializer_lists.cpp in Sources */,
 				7D40E5DF2062869C004E480E /* StackNQueue.cpp in Sources */,
 				7D72133E2067BB540044A7D3 /* functors.cpp in Sources */,
+				7D4F70DB206AAEFE009A876C /* lvalues-rvalues.cpp in Sources */,
 				7D7213352066AC560044A7D3 /* FunctionPointers.cpp in Sources */,
 				7D7213382066E39E0044A7D3 /* Object Slicing and polymorphism.cpp in Sources */,
 				7DB953812064435100D35CE5 /* Complex numbers class.cpp in Sources */,
@@ -263,6 +274,7 @@
 				7D40E5E32063C926004E480E /* Overloading Operators.cpp in Sources */,
 				7D72133120665D780044A7D3 /* Templates.cpp in Sources */,
 				7D40E5A3206022B7004E480E /* Vectors.cpp in Sources */,
+				7D72134C206820EB0044A7D3 /* lambda_expressions.cpp in Sources */,
 				7D40E594205FEE71004E480E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

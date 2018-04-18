@@ -6,11 +6,11 @@
 //  Copyright © 2018 Stefanos Mitropoulos. All rights reserved.
 //
 #include <iostream>
-#include "initializer_lists.hpp"
+#include "lambda_expressions.hpp"
 
 using namespace std;
 int main(int argc, const char * argv[]) {
 
-	init_lists();
+	lambdas();
 
 }
